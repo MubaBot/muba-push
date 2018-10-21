@@ -1,0 +1,6 @@
+apps:
+  - script: ./app.js
+    name: "Muba Push Service"
+    instances: 1
+    watch: true
+    exec_mode: cluster

@@ -1,0 +1,8 @@
+# Editor config
+.vscode/
+.vs/
+
+# misc
+.DS_Store
+package-lock.json
+node_modules/
