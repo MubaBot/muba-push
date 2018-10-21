@@ -10,7 +10,7 @@ const server = http.createServer(function(request, response) {
 });
 
 server.listen(5520, function() {
-  console.log(new Date() + " Server is listening on port 3050");
+  console.log(new Date() + " Server is listening on port 5520");
 });
 
 websocket(server);
