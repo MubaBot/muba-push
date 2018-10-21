@@ -9,7 +9,7 @@ const server = http.createServer(function(request, response) {
   response.end();
 });
 
-server.listen(3050, function() {
+server.listen(5520, function() {
   console.log(new Date() + " Server is listening on port 3050");
 });
 
